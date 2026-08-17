@@ -1,0 +1,14 @@
+{
+  "title": "修复缓存失效逻辑",
+  "objective": "使过期缓存不会返回旧值。",
+  "constraints": ["Python 3.10+", "不修改公共 API"],
+  "acceptance_criteria": ["过期条目重新计算", "现有测试通过"],
+  "metadata": {
+    "difficulty": "medium",
+    "tags": ["python", "bugfix", "cache"]
+  },
+  "execution": {
+    "timeout_seconds": 5,
+    "random_seed": 42
+  }
+}
