@@ -13,6 +13,7 @@
 ## 快速开始
 
 ```bash
+python -m pip install -e .
 python -m task_quality_audit.cli examples/good_task
 python -m unittest discover -s tests -v
 ```
